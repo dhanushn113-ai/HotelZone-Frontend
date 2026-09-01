@@ -96,7 +96,7 @@ const ratingFilters = [5, 4, 3, 2, 1];
 const Reviews = () => {
   const [reviews, setReviews] = useState(initialReviews);
   const [activeFilter, setActiveFilter] = useState("all");
-  const API_URL = process.env.API_URL;
+  const API_URL = "https://hotelzone-fullstack.onrender.com";
 
   const [form, setForm] = useState({ name: "", hotelname: "", quote: "" });
   const [formRating, setFormRating] = useState(0);
