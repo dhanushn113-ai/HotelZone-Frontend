@@ -16,7 +16,7 @@ const Signin = () => {
   });
 
   const navigate=useNavigate();
-  const API_URL = process.env.API_URL;
+ const API_URL = "https://hotelzone-fullstack.onrender.com";
   const changenumber = (e) => {
     setData({
       ...data,
