@@ -25,7 +25,7 @@ const DinningStatus = () => {
   const [statusFilter, setStatusFilter] = useState("all");
 
   const jwt = Cookies.get("jwttoken");
-  const API_URL = process.env.API_URL;
+ const API_URL = "https://hotelzone-fullstack.onrender.com";
 
   useEffect(() => {
     gettingDinningDetails();
