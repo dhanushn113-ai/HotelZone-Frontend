@@ -16,7 +16,7 @@ const Register = () => {
     address: "",
     password: "",
   });
-  const API_URL = process.env.API_URL;
+ const API_URL = "https://hotelzone-fullstack.onrender.com";
 
   const changeusername = (e) => {
     setData({
