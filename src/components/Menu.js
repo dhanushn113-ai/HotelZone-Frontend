@@ -10,7 +10,7 @@ const Menu = () => {
   const [loading, setLoading] = useState(true);
 
   const jwt=Cookies.get("jwttoken");
-  const API_URL = process.env.API_URL;
+  const API_URL = "https://hotelzone-fullstack.onrender.com";
   
   useEffect(() => {
     callcheckMenu();

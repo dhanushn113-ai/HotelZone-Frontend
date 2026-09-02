@@ -45,7 +45,7 @@ const AdminDinning = ({ dinning, onStatusChanged, onDeleted }) => {
   const { id, dinningid, capacity, floor, ac, status, register } = dinning;
   const [busy, setBusy] = useState(null); 
   // 'available' | 'occupied' | 'delete' | null
-  const API_URL = process.env.API_URL;
+  const API_URL = "https://hotelzone-fullstack.onrender.com";
 
   const jwt = Cookies.get("jwttoken");
   const meta = statusMeta[status];

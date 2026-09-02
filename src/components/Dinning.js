@@ -49,7 +49,7 @@ const Dinning = () => {
   const [toast, setToast] = useState(null); // { type: 'success' | 'error', message }
 
   const jwt = Cookies.get("jwttoken");
-  const API_URL = process.env.API_URL;
+  const API_URL = "https://hotelzone-fullstack.onrender.com";
 
   const chnagedinningId = (e) => {
     setData({
